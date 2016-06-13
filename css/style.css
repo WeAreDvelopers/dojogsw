@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  min-height: 100%;
+  width: 100%;
+  font-family: 'robotolight';
+}
+div.frameT {
+  width: 100%;
+  padding: 0;
+  display: table;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+div.frameTC {
+  padding: 15px;
+  vertical-align: middle;
+  display: table-cell;
+  margin: 0;
+}
+div.content {
+  max-width: 600px;
+  width: 100%;
+  color: #fff;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px;
+}
+.clear{
+  clear: both;
+}
+body{
+  background: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content h1{
+  font-family: 'robotomedium';
+   color: #44aca8;
+   text-align: center;
+   font-size: 5em;
+   margin-bottom: 1.5em;
+}
+.btn-cadastro{
+  background: #44aca8;
+}
+.panel{
+  margin-top: 30px;
+}
+.panel-body{
+  color: #333;
+}
+.bt-action{
+  float: right;
+  margin: 15px;
+}
+.bt-action a{
+      font-size: 1.5em;
+    color: #44aca8;
+   
+    
+     font-family: 'robotolight';
+    height: 40px;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    vertical-align: middle;
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-decoration: none;
+}
